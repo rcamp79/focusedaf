@@ -1,0 +1,21 @@
+header {
+    padding: 0;
+    margin: 0;
+    background-color: $secondary_color;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+
+   .social_group {
+    justify-self: left;
+    ul{
+        display: flex  ;
+    }
+   }
+
+   .brand {
+    justify-self: normal;
+   }
+
+}

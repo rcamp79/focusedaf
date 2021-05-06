@@ -2,22 +2,22 @@ import React from 'react'
 
 function Header() {
     return (
-        <header>
+        <header className="header">
             <div className="social_group">
                 <ul>
                     <li>
                         <a href="/">
-                            <i className="fab fa-facebook fa-3x"></i>
+                            <i className="fab fa-facebook fa-2x"></i>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i className="fab fa-facebook"></i>
+                            <i className="fab fa-instagram fa-2x"></i>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i className="fab fa-facebook"></i>
+                            <i className="fab fa-twitter fa-2x"></i>
                         </a>
                     </li>
                 </ul>

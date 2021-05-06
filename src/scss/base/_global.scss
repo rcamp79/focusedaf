@@ -1,6 +1,12 @@
 * {
+    box-sizing: border-box;
+
     li {
         list-style: none;
+    }
+
+    a:visited {
+        color: inherit;
     }
 
     margin: 0;
@@ -9,5 +15,6 @@
     body {
         background-color: $primary_color;
         color: $primary_text;
+        font-family: $primary_font;
     }
 }

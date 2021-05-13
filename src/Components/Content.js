@@ -1,9 +1,10 @@
 import React from 'react'
+import Home from '../Screens/Home'
 
 function Content() {
     return (
         <div className='content'>
-            Content
+            <Home />
         </div>
     )
 }

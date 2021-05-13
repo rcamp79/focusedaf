@@ -5,10 +5,13 @@
 @import './base/global';
 
 // Components
+@import './components/app';
 @import './components/header';
 @import './components/content';
 @import './components/footer';
+@import './components/nav';
 // Pages
+@import './pages/home';
 
 // Themes
 

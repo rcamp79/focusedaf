@@ -5,12 +5,14 @@ import Nav from './Components/Nav';
 
 
 
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <Nav />
-      <Content />
+      <div className="main"> 
+        <Content />
+      </div>
       <Footer />
     </div>
   );

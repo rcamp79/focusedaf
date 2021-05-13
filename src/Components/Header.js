@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Nav from './Nav';
 
 function Header() {
     return (
@@ -24,6 +25,9 @@ function Header() {
             </div>
             <div className="brand">
                 <h2>FocusedAF Photos</h2>
+            </div>
+            <div className="nav">
+                <Nav />
             </div>
         </header>
     )

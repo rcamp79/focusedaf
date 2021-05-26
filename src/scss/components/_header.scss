@@ -1,28 +1,28 @@
 .header {
     padding: 0;
     margin: 0;
-    background-color: $secondary_color;
+    background-color: $header_color;
     align-items: center;
     height: 5vh;
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    opacity: .7;
+    color: $primary_color;
+
+}
 
 
-    .social_group {
-        padding: 0 10px;
-        ul {
-            display: flex;
+.social_group {
+    padding: 0 10px;
+    ul {
+        display: flex;
 
-            li {
-                padding: 0 5px;
-            }
+        li {
+            padding: 0 5px;
+        }
 
-            li:hover {
-                color: $primary_color;
-            }
+        li:hover {
+            color: $secondary_color;
         }
     }
-
-   
 }

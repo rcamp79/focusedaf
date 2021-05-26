@@ -1,9 +1,11 @@
 import React from 'react';
-import Nav from './Nav';
 
 function Header() {
     return (
         <header className="header">
+            <div className="brand">
+                <h2 className='brand_text'>FocusedAF Photos</h2>
+            </div>
             <div className="social_group">
                 <ul>
                     <li>
@@ -22,12 +24,6 @@ function Header() {
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div className="brand">
-                <h2>FocusedAF Photos</h2>
-            </div>
-            <div className="nav">
-                <Nav />
             </div>
         </header>
     )

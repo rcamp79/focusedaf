@@ -1,3 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300 &family=Raleway:wght@100&family=Rubik:wght@300&family=Work+Sans:wght@100;200&display=swap');
 
-$primary_font: 'Shadows Into Light Two', cursive;
+// font-family: 'Quicksand', sans-serif;
+
+// font-family: 'Raleway', sans-serif;
+
+// font-family: 'Rubik', sans-serif;
+
+// font-family: 'Work Sans', sans-serif;
+
+:root{
+    font-size: 16px;
+}
+
+
+$primary_font: 'Rubik', sans-serif;
+$secondary_font: 'Raleway', sans-serif;

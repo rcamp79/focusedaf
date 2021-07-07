@@ -1,44 +1,45 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Nav() {
     return (
         <div className='nav'>
             <ul className="nav-links">
                 <li className='nav-item'>
-                    <a href="/" className='nav-link'>
-                        <i class="fas fa-home"></i>
+                    <Link to="/" className='nav-link'>
                         <span className="link-text">
                             Home
                         </span>
-                    </a>
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="/" className='nav-link'>
+                    <Link to="/" className='nav-link' disabled>
                         <span className="link-text">
-                            About Us
+                            Login
                         </span>
-                    </a>
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="/" className='nav-link'>
+                    <Link to="/portfolio" className='nav-link'>
                         <span className="link-text">
-                            Gallery
+                            Portfolio
                         </span>
-                    </a>
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="/" className='nav-link'>
+                    <Link to="/Pricing" className='nav-link'>
                         <span className="link-text">
-                            Book Now!
+                            Pricing
                         </span>
-                    </a>
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="/" className='nav-link'>
+                    <Link to="/contact" className='nav-link'>
                         <span className="link-text">
                             Contact Us
                         </span>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>

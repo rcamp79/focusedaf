@@ -1,10 +1,13 @@
 import React from 'react';
+import NavBar from './Navbar'
+import { Navbar, Nav } from 'react-bootstrap';
 
 function Header() {
     return (
         <header className="header">
-            <div className="brand">
-                <h2 className='brand_text'>FocusedAF Photos</h2>
+            
+            {/* <div className="brand">
+                <h2 className='brand-text'>Focused AF Photography</h2>
             </div>
             <div className="social_group">
                 <ul>
@@ -24,7 +27,7 @@ function Header() {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </header>
     )
 }

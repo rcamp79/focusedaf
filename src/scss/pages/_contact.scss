@@ -1,0 +1,17 @@
+.main-contact {
+    text-align: center;
+    height: inherit;
+    min-height: 87vh; 
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-content {
+        background-color: $primary_color;
+        min-height: 50vh;
+        min-width: 50vw;
+    }
+
+}

@@ -3,6 +3,7 @@
 @import './base/fonts';
 @import './base/colors';
 @import './base/global';
+@import './base/media';
 
 // Components
 @import './components/app';
@@ -12,6 +13,11 @@
 @import './components/nav';
 // Pages
 @import './pages/home';
+@import './pages/portfolio';
+@import './pages/contact';
+@import './pages/about';
+@import './pages/login';
+@import './pages/pricing';
 
 // Themes
 

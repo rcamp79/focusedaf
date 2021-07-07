@@ -1,0 +1,40 @@
+
+
+
+.main-about {
+    text-align: center;
+    height: inherit;
+    min-height: 87vh; 
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-content {
+        background-color: $primary_color;
+        min-height: 50vh;
+        min-width: 50vw;
+
+        .about-text {
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            p {
+                max-width: 50%;
+            }
+
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            height: 25%;
+            width: 25%;
+        }
+    }
+}
+
+@media  and  {
+    
+}

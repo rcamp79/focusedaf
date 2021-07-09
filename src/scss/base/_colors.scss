@@ -1,7 +1,16 @@
+// Colors
+
 $primary_color: rgba(174, 174, 174, .3);
 $primary_color_darker: rgba(0, 0, 0, .4);
 $primary_text_color: #000;
 $secondary_text_color: #fff;
 $secondary_color: #aeaeae;
-$header_color: rgba(174, 174, 174, .9);
+$header_color: rgba(174, 174, 174, .2);
 $primary_text: #fff;
+
+
+// Other Variables
+$nav-size: 60px;
+$border: 1px solid $primary_color;
+$border-radius: 8px;
+$speed: 500ms;

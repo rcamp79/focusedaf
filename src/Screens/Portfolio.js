@@ -15,9 +15,9 @@ function Portfolio() {
 
   const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-      width: 4,
-      height: 3
+      src: "https://i.imgur.com/3Ysa3sE.jpg",
+      width: 1,
+      height: 1
     },
     {
       src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
@@ -146,7 +146,7 @@ function Portfolio() {
               <li className='nav-item'>
                 <Link to="/" className='nav-menu-link' disabled>
                   <span className="link-text">
-                    Login
+                  Client Login
                   </span>
                 </Link>
               </li>
@@ -192,7 +192,6 @@ function Portfolio() {
           ) : null}
         </ModalGateway>
       </Container>
-
     </div>
   )
 }

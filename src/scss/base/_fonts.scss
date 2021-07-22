@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300 &family=Raleway:wght@100&family=Rubik:wght@300&family=Work+Sans:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Reenie+Beanie&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Nanum+Myeongjo&family=Open+Sans+Condensed:wght@300&family=Poiret+One&display=swap');
 
 // font-family: 'Quicksand', sans-serif;
 
@@ -15,13 +16,21 @@
 
 // font-family: 'Tangerine', cursive;
 
+// font-family: 'Josefin Slab', serif;
+
+// font-family: 'Nanum Myeongjo', serif;
+
+// font-family: 'Open Sans Condensed', sans-serif;
+
+// font-family: 'Poiret One', cursive;
+
 :root{
     font-size: 16px;
 }
 
 
-$primary_font: 'Bad Script', cursive;
-$secondary_font: 'Bad Script', cursive;
+$primary_font: 'Poiret One', cursive;
+$secondary_font: 'Poiret One', cursive;
 
 
 // $primary_font: 'Reenie Beanie', cursive;

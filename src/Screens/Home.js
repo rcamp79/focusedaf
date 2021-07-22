@@ -38,7 +38,7 @@ function Home() {
                             <li className='nav-item'>
                                 <Link to="/" className='nav-menu-link' disabled>
                                     <span className="link-text">
-                                        Login
+                                    Client Login
                                     </span>
                                 </Link>
                             </li>

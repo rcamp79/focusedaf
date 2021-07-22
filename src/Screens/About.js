@@ -41,7 +41,7 @@ function About() {
                             <li className='nav-item'>
                                 <Link to="/" className='nav-menu-link' disabled>
                                     <span className="link-text">
-                                        Login
+                                    Client Login
                                     </span>
                                 </Link>
                             </li>
@@ -72,16 +72,19 @@ function About() {
             </Header>
             <div className='main-about'>
                 <div className="about-content">
-                    <h2>About Us</h2>
-                    <div className="about-text">
-                        <img src={profile} alt=""  className='profile-image'/>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas earum, ipsa repellendus tempore illum numquam quam nostrum quis necessitatibus vero ut. Reiciendis atque quaerat tenetur accusantium incidunt ducimus aspernatur, molestias officia voluptatem commodi quo, animi officiis repellendus quas laboriosam magnam unde mollitia explicabo blanditiis ad iure. Quasi, et. Sit, sunt?</p>
+                    <div className="about-container">
+                        <div className="profile-image-container">
+                            <img src={profile} alt="" className='profile-image' />
+                        </div>
+                        <div className="profile-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas earum, ipsa repellendus tempore illum numquam quam nostrum quis necessitatibus vero ut. Reiciendis atque quaerat tenetur accusantium incidunt ducimus aspernatur, molestias officia voluptatem commodi quo, animi officiis repellendus quas laboriosam magnam unde mollitia explicabo blanditiis ad iure. Quasi, et. Sit, sunt?</p>
+                        </div>
                     </div>
-                    
+                    <br />
                 </div>
             </div>
         </div>
-        
+
     )
 }
 

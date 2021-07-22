@@ -16,7 +16,7 @@ function Nav() {
                 <li className='nav-item'>
                     <Link to="/" className='nav-link' disabled>
                         <span className="link-text">
-                            Login
+                            Client Login
                         </span>
                     </Link>
                 </li>

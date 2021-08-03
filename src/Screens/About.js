@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 function About() {
     return (
-        <div className="about-container">
+        <div className="about">
             <Header>
                 <NavItem icon={<FacebookIcon />} />
                 <NavItem icon={<TwitterIcon />} />
@@ -77,7 +77,12 @@ function About() {
                             <img src={profile} alt="" className='profile-image' />
                         </div>
                         <div className="profile-text">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas earum, ipsa repellendus tempore illum numquam quam nostrum quis necessitatibus vero ut. Reiciendis atque quaerat tenetur accusantium incidunt ducimus aspernatur, molestias officia voluptatem commodi quo, animi officiis repellendus quas laboriosam magnam unde mollitia explicabo blanditiis ad iure. Quasi, et. Sit, sunt?</p>
+                            <p>Knoxville based freelance professional photography established in 2018 by Ukennia Arinze and Jessica Foye.
+
+Specializes in Newborn, Family, Couples, Milestones, Maternity, Photo Decor
+
+We take great pride in making sure that our clients are receiving beautiful unique memories that will last a lifetime
+</p>
                         </div>
                     </div>
                     <br />

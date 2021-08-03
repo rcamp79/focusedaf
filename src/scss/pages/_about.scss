@@ -1,50 +1,56 @@
-.main-about {
-  text-align: center;
-  height: inherit;
-  min-height: 87vh;
-  width: 75%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about {
 
-  .about-container {
+  .main-about {
+    text-align: center;
+    height: inherit;
+    min-height: 87vh;
+    width: 75%;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    -webkit-box-shadow: 0px 0px 8px 3px #fff; 
-    box-shadow: -5px -5px 8px 1px #fff;
-    background-color: $primary_text_color;
-
-    .profile-image-container{
-        width: 40%;
-
-        .profile-image {
-        
-            border-radius: 50%;
-            margin: 1rem;
-            
-          }
-
-    }
-
-    
-
-    .profile-text {
+    justify-content: center;
+    align-items: center;
+  
+    .about-container {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 60%;
-      font-size: 1.3rem;
-
-      p {
-          margin: 0 1rem 0 0;
+      flex-wrap: wrap;
+      // -webkit-box-shadow: 0px 0px 8px 3px #fff; 
+      // box-shadow: -5px -5px 8px 1px #fff;
+      background-color: $primary_text_color;
+  
+      .profile-image-container{
+          width: 40%;
+  
+          .profile-image {
+          
+              border-radius: 50%;
+              margin: 1rem;
+              
+            }
+  
+      }
+  
+      
+  
+      .profile-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        font-size: 1.3rem;
+  
+        p {
+            margin: 0 1rem 0 0;
+        }
       }
     }
   }
+
 }
 
 
-@media only screen and (max-width: 800px) {
+
+
+@media only screen and (max-width: 1400px) {
 
   .content{
     
@@ -53,11 +59,21 @@
       display: flex;
       flex-direction: column;
       box-shadow: none;
+
+      .profile-image-container{
+        width: inherit !important;
+
+        .profile-image {
+            width: 300px;
+            border-radius: 50%;
+            margin: 1rem;
+            
+          }
+
+    }
+
       
-      .profile-image {
-        
-      }
-      
+  
       .profile-text {
         margin: auto;
         text-align: left;
@@ -72,5 +88,21 @@
 
   }
     
+}
+
+@media only screen and (max-width: 360px) {
+
+  .about-container{
+    min-width: 100%;
+
+  }
+  .profile-image {
+    max-width: 250px;
+    
+  }
+
+  .profile-text {
+    min-width:100%; 
+  }
 }
 
